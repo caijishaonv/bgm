@@ -1,0 +1,8 @@
+<view class='imageView' style="background-image: url({{playpic}});" animation="{{animationData}}"></view>
+<button class="addOne" type='default'size='default'
+plain='true' bindtap='getData'>获取环境信息</button>
+
+<button class="audioPause"bindtap="playMusic"type='default'size='mini'plain='true'>{{z}}</button>
+<button  class="last"bindtap="last"type='default'size='mini'plain='true' bindtap="thepre">上一首</button>
+<button class="next"bindtap="next"type='default'size='mini'plain='true'bindtap="thenext">下一首</button>
+<view class="songName"style="width: 100%;height: 100%;display: flex;justify-content: center">{{name}}</view>

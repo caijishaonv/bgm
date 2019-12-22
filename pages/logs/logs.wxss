@@ -1,0 +1,55 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.imageView{
+margin:70px auto;
+ border: 0px solid;
+  border-radius: 50%; 
+  background-size: cover;
+  box-shadow:0px 10px 5px #888888;
+  height:300rpx;
+  width:300rpx; 
+  margin-top:-50%;
+  left:30%;
+  position: absolute;
+ 
+}
+  .audioPlay{
+   right: 56%;/*距离右侧*/
+    top:80%;
+    position: absolute;
+    }
+  .audioPause{
+   left: 43%;/*距离左侧*/
+    top:80%;
+    position: absolute;
+    }
+  .addOne{
+   left:33%;/*距离左侧*/
+    top:60%;
+    position: absolute;
+    }
+ .last{
+   right:65%;
+    top:5%;
+    position: absolute;
+    }
+  .next{
+   left:65%;
+    top:5%;
+    position: absolute;
+    }
+  .songName{
+      margin-top:70%; 
+      color:rgb(125, 153, 198);
+      font-size: 20px;
+      
+       }
+page{
+  background-color: rgb(229, 246, 255);
+}

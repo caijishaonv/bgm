@@ -1,0 +1,37 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 35%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.userinfo-nickname {
+  color: rgb(125, 153, 198);
+  margin-top: 30%;
+  font-size: 20px;
+  position: absolute;
+}
+
+.tip{
+  color: rgb(180, 182, 185);
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+.usermotto {
+  margin-top: 60%;
+  color:rgb(125, 153, 198);
+  font-size: 30px;
+  position: absolute;
+}
+page{
+  background-color: rgb(229, 246, 255);
+}
